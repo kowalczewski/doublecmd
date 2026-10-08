@@ -2,6 +2,9 @@ name: build-mac-arm64
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - claude/double-commander-github-actions-fmfdlf
 
 jobs:
   build-mac-arm64:
